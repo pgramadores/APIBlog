@@ -1,0 +1,25 @@
+{
+  "name": "apiblog",
+  "version": "1.0.0",
+  "description": "API REST para el blog de la comunidad con sistema de autentificación de Json Web Token",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgramadores/APIBlog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "jwt",
+    "expressjs"
+  ],
+  "author": "Juan Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgramadores/APIBlog/issues"
+  },
+  "homepage": "https://github.com/pgramadores/APIBlog#readme"
+}
