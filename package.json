@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/pgramadores/APIBlog/issues"
   },
-  "homepage": "https://github.com/pgramadores/APIBlog#readme"
+  "homepage": "https://github.com/pgramadores/APIBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.11.2"
+  }
 }

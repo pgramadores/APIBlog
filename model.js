@@ -3,7 +3,9 @@ var Schema = mongoose.Schema;
 
 module.exports = mongoose.model('Usuario', new Schema({
     Correo: String,
-    Contrasena: String
+    Contrasena: String,
+    NivelPermiso: {type: String, enum : ['Administrador', 'Editor']},
+    EstadoUsuario: Boolean
 }));
 
 module.exports = mongoose.model('Persona', new Schema({
